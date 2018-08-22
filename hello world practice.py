@@ -16,3 +16,8 @@ print "hello {adj} world!".format(adj=world_adjective)
 print "I am starting a {adj} class." .format(adj=world_adjective)
 
  
+# set variables 
+ocean_adjective = "blue" 
+
+# print statement 
+print "The {adj} ocean." .format(adj=ocean_adjective)
