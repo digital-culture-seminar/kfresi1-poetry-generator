@@ -10,47 +10,64 @@ forest in the late spring.
 
 import random 
 
-random.seed()
+random.seed(2)
 
 # list of nouns 
-nouns= ["tree", 
+nouns= ["wilderness",
+        "vines",
+        "leaves", 
         "flora", 
-        "vines", 
         "path", 
-        "squirrel", 
-        "wilderness", 
-        "forest", 
-        "sunlight"]
+        "sunlight", 
+        "forest"]
 
 # list of verbs
-verbs= ["Filters", 
-        "coils", 
+verbs= ["meanders", 
+        "coils",
+        "fall",
         "shimmers", 
-        "scampers", 
-        "filters", 
-        "Meanders"]
+        "filters",
+        "enchants"]
 
 # list of adjectives 
-adjectives= ["Effervescent", 
+adjectives= ["effervescent", 
              "unsightly", 
              "shrouded", 
              "deep", 
              "dark", 
-             "cool", 
+             "warm", 
              "majestic", 
              "primordial"]
 
 # list of adverbs
 adverbs= ["slowly", 
-          "quietly",
-          "softly"]
+          "softly",
+          "lightly",
+          "quietly",]
 
 
 noun = random.choice(nouns)
 verb = random.choice(verbs)
 adjective = random.choice(adjectives)
 adverb = random.choice(adverbs)
+second_noun = random.choice(nouns)
+second_verb = random.choice(verbs)
+second_adjective = random.choice(adjectives)
+second_adverb = random.choice(adverbs)
+
+
 
 # string format
-print "The {adj} {n} {adv} {v}." .format(adj=adjective, n=noun, adv=adverb, 
+print "The {adj} {n} {adv} {v} the wander" .format(adj=adjective, n=noun, adv=adverb, 
            v=verb)
+print "while the {sec_adj} {sec_n} {sec_adv} {sec_v} through viridian leaves.".format(sec_adj=second_adjective, sec_n=second_noun, sec_adv=second_adverb, 
+           sec_v=second_verb)
+
+
+#i=0
+#for noun in nouns:
+#    print nouns [i]
+#    i=i
+#    
+
+
