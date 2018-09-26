@@ -10,7 +10,7 @@ forest in the late spring.
 
 import random 
 
-random.seed(5)
+random.seed(2)
 
 # list of nouns 
 nouns= ["wilderness",
