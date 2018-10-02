@@ -69,5 +69,17 @@ print "while the {sec_adj} {sec_n} {sec_adv} {sec_v} through viridian leaves.".f
 #    print nouns [i]
 #    i=i
 #    
+path = random.randint(1,3)
+path = path
+
+print "The wander meets a fork in the road. Path {path} is \
+     followed." .format(path=path)
+ 
+if path == 2:
+    print "A waterfall appears through the trees."
+    
+else:
+    print "The wander then comes upon a clearing."
+
 
 
