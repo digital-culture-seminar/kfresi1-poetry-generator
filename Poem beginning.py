@@ -68,18 +68,37 @@ print "while the {sec_adj} {sec_n} {sec_adv} {sec_v} through viridian leaves.".f
 #for noun in nouns:
 #    print nouns [i]
 #    i=i
-#    
+#   
+#add random if else to my poem 
 path = random.randint(1,3)
 path = path
 
 print "The wander meets a fork in the road. Path {path} is \
-     followed." .format(path=path)
+followed." .format(path=path)
  
 if path == 2:
     print "A waterfall appears through the trees."
-    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 else:
     print "The wander then comes upon a clearing."
 
+##add markovify to my poem
+#import markovify
+#
+#
+#with open ("alice.txt") as textfile: 
+#    carroll = textfile.read()
+#    
+#with open ("poe.txt") as textfile: 
+#    poe = textfile.read()
+#    
+##print carroll
+#
+#carroll_model = markovify.Text(carroll)  
+#poe_model = markovify.Text(poe) 
+#
+#synthesized_model = markovify.combine([carroll_model, poe_model], [1,1])
+#
+#print synthesized_model.make_sentence()
 
 
