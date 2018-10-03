@@ -16,6 +16,7 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
  and environment of the natural world. 
 
 Poem 
+
 The effervescent forest slowly enchants the wander
 while the warm sunlight softly filters through viridian leaves.
 The wander meets a fork in the road. Path 2 is followed.
