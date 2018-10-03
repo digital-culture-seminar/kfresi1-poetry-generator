@@ -28,7 +28,7 @@ print synthesized_model.make_sentence()
 #print carroll_model.make_sentence()
 
 
-#print carroll_model.make_short_sentence(50)
+##print carroll_model.make_short_sentence(50)
 
 for i in range(3):
     print carroll_model.make_sentence()
