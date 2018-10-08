@@ -8,14 +8,29 @@ markov chain
 # import libraries
 import markovify
 
-# get raw text as string
-with open ("ANNABEL LEE text for class.txt") as f: 
-    text = f.read()
+
+with open ("alice.txt") as textfile: 
+    carroll = textfile.read()
+    
+with open ("poe.txt") as textfile: 
+    poe = textfile.read()
+    
+#print carroll
+
+carroll_model = markovify.Text(carroll)  
+poe_model = markovify.Text(poe) 
+
+synthesized_model = markovify.combine([carroll_model, poe_model], [1,1])
+
+print synthesized_model.make_sentence()
 
 
-# build the model
-text_model = markovify.NewlineText(text) #text_model = markovify.Text(text)
+#print carroll_model.make_sentence()
 
-# print three randomly-generated sentences of no more than 140 characters
+
+##print carroll_model.make_short_sentence(50)
+
 for i in range(3):
-    print text_model.make_short_sentence(140)
+    print carroll_model.make_sentence()
+    print " "
+    

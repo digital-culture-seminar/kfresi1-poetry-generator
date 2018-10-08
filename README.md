@@ -1,7 +1,7 @@
 # poetry repository
 
 
-artist statement 
+Artist Statement 
 
 I have a strong interest in the natural world and the colors and forms found therein. 
 This is often the inspiration for my art and design work. This will be the 
@@ -15,7 +15,12 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
  The intent is that these will words will combine to create a feeling
  and environment of the natural world. 
 
+Poem 
 
+The effervescent forest slowly enchants the wander
+while the warm sunlight softly filters through viridian leaves.
+The wander meets a fork in the road. Path 2 is followed.
+A waterfall appears through the trees.
 
 
 
