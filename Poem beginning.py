@@ -54,7 +54,10 @@ second_noun = random.choice(nouns)
 second_verb = random.choice(verbs)
 second_adjective = random.choice(adjectives)
 second_adverb = random.choice(adverbs)
-
+third_noun = random.choice(nouns)
+third_verb= random.choice(verbs)
+third_adjective= random.choice(adjectives)
+third_adverb= random.choice(adverbs)
 
 
 # string format
@@ -62,6 +65,7 @@ print "The {adj} {n} {adv} {v} the wander" .format(adj=adjective, n=noun, adv=ad
            v=verb)
 print "while the {sec_adj} {sec_n} {sec_adv} {sec_v} through viridian leaves.".format(sec_adj=second_adjective, sec_n=second_noun, sec_adv=second_adverb, 
            sec_v=second_verb)
+
 
 
 #i=0
@@ -82,6 +86,7 @@ if path == 2:
 else:
     print "The wander then comes upon a clearing."
 
+print "{third_adj} {third_n} {third_adv} {third_v}.".format(third_adj=adjective, third_n=third_noun, third_adv=third_adverb, third_v=third_verb)
 ##add markovify to my poem
 #import markovify
 #
