@@ -86,7 +86,7 @@ if path == 2:
 else:
     print "The wander then comes upon a clearing."
 
-print "{third_adj} {third_n} {third_adv} {third_v}.".format(third_adj=adjective, third_n=third_noun, third_adv=third_adverb, third_v=third_verb)
+print "The {third_adj} {third_n} {third_adv} {third_v}.".format(third_adj=adjective, third_n=third_noun, third_adv=third_adverb, third_v=third_verb)
 ##add markovify to my poem
 #import markovify
 #
