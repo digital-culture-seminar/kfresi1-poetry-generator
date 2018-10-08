@@ -22,5 +22,27 @@ while the warm sunlight softly filters through viridian leaves.
 The wander meets a fork in the road. Path 2 is followed.
 A waterfall appears through the trees.
 
+The effervescent forest slowly enchants the wander
+while the warm sunlight softly filters through viridian leaves.
+The wander meets a fork in the road. Path 2 is followed.
+A waterfall appears through the trees.
+The effervescent path slowly shimmers.
+
+Other Poem Results 
+
+The dark wilderness softly filters the wander
+while the warm flora softly shimmers through viridian leaves.
+The wander meets a fork in the road. Path 3 is followed.
+The wander then comes upon a clearing.
+
+The unsightly sunlight lightly filters
+while the primordial vines quietly filters through viridian leaves.
+The wander meets a fork in the road. Path 3 is followed.
+The wander then comes upon a clearing.
+
+The warm path slowly enchants
+while the shrouded wilderness slowly fall through viridian leaves.
+The wander meets a fork in the road. Path 1 is followed.
+The wander then comes upon a clearing.
 
 
