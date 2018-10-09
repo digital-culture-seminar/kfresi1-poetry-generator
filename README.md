@@ -17,11 +17,13 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
 
 # Poem 
 
+ _Version One_
 >The effervescent forest slowly enchants the wander
 >while the warm sunlight softly filters through viridian leaves.
 >The wander meets a fork in the road. Path 2 is followed.
 >A waterfall appears through the trees.
 
+ _Version Two_
 >The effervescent forest slowly enchants the wander
 >while the warm sunlight softly filters through viridian leaves.
 >The wander meets a fork in the road. Path 2 is followed.
