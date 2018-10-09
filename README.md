@@ -45,4 +45,16 @@ while the shrouded wilderness slowly fall through viridian leaves.
 The wander meets a fork in the road. Path 1 is followed.
 The wander then comes upon a clearing.
 
+markov chain examples 
+
+This I sat divining, with my head at ease reclining On the pallid bust of Pallas just above my chamber door.
+Leave my loneliness unbroken!--quit the bust above my chamber door-- Perched and sat and nothing more.
+
+And this was the reason that, long ago, In a kingdom by the sea.
+But the Raven, never flitting, still is sitting--still is sitting On the cushion's velvet lining that the lamp-light gloating o'er, _She_ shall press, ah, nevermore!
+This I sat divining, with my head at ease reclining On the pallid bust of Pallas just above my door!
+
+As she said this, she was now, and she heard it muttering to itself ‘The Duchess!
+
+I was a child, In this kingdom by the sea, In her sepulchre there by the sea.
 
