@@ -50,7 +50,7 @@ synthesized_model = markovify.combine([raven_model, poe_model], [1,1])
 print synthesized_model.make_sentence()
 #
 #
-#print raven_model.make_sentence()
+print raven_model.make_sentence(1)
 #
 #
 ##print raven_model.make_short_sentence(10)
