@@ -60,3 +60,21 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
 
 >I was a child, In this kingdom by the sea, In her sepulchre there by the sea.
 
+# Poem With Markov Chain
+
+>The effervescent forest slowly enchants the wander
+>while the warm sunlight softly filters through viridian leaves.
+>The wander meets a fork in the road. Path 2 is followed.
+>A waterfall appears through the trees.
+>The effervescent path slowly shimmers.
+>‘I couldn’t help it,’ said the March Hare.
+
+>The effervescent forest slowly enchants the wander
+>while the warm sunlight softly filters through viridian leaves.
+>The wander meets a fork in the road. Path 2 is followed.
+>A waterfall appears through the trees.
+>The effervescent path slowly shimmers.
+>‘Oh, you can’t swim, can you?’ he added, turning to the Classics master, though.
+
+
+
