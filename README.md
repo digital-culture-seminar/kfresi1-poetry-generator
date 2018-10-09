@@ -1,7 +1,7 @@
-# poetry repository
+# Poetry Repository
 
 
-Artist Statement 
+# Artist Statement 
 
 I have a strong interest in the natural world and the colors and forms found therein. 
 This is often the inspiration for my art and design work. This will be the 
@@ -15,12 +15,12 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
  The intent is that these will words will combine to create a feeling
  and environment of the natural world. 
 
-Poem 
+# Poem 
 
-The effervescent forest slowly enchants the wander
-while the warm sunlight softly filters through viridian leaves.
-The wander meets a fork in the road. Path 2 is followed.
-A waterfall appears through the trees.
+>The effervescent forest slowly enchants the wander
+>while the warm sunlight softly filters through viridian leaves.
+>The wander meets a fork in the road. Path 2 is followed.
+>A waterfall appears through the trees.
 
 The effervescent forest slowly enchants the wander
 while the warm sunlight softly filters through viridian leaves.
@@ -28,7 +28,7 @@ The wander meets a fork in the road. Path 2 is followed.
 A waterfall appears through the trees.
 The effervescent path slowly shimmers.
 
-Other Poem Results 
+# Other Poem Results 
 
 The dark wilderness softly filters the wander
 while the warm flora softly shimmers through viridian leaves.
@@ -45,7 +45,7 @@ while the shrouded wilderness slowly fall through viridian leaves.
 The wander meets a fork in the road. Path 1 is followed.
 The wander then comes upon a clearing.
 
-markov chain examples 
+# Markov Chain Examples 
 
 This I sat divining, with my head at ease reclining On the pallid bust of Pallas just above my chamber door.
 Leave my loneliness unbroken!--quit the bust above my chamber door-- Perched and sat and nothing more.
