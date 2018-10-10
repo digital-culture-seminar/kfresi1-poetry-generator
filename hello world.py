@@ -6,6 +6,7 @@ License: CC-BY-SA 4.0
 Description: a simple python script
 This is a temporary script file.
 """
+
 mylist = []
 for i in range(0,10):
     mylist.append("hello world" + str(i))
