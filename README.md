@@ -30,6 +30,14 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
 >A waterfall appears through the trees.
 >The effervescent path slowly shimmers.
 
+## Wandering
+---
+The effervescent forest slowly enchants the wanderer while the warm sunlight softly filters through viridian leaves.
+The wanderer meets a fork in the road. Path 3 is followed.
+The wanderer then comes upon a clearing.
+But there is no road through the woods Seventy years ago.
+The effervescent forest slowly enchants.
+
 # Other Poem Results 
 
 >The dark wilderness softly filters the wander
