@@ -78,7 +78,7 @@ poem = "The {adj} {n} {adv} {v} the wanderer while the {sec_adj} {sec_n}\
 #    print "A waterfall appears through the trees."
 #                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 #else:
-#    print "The wander then comes upon a clearing."
+#     print "The wander then comes upon a clearing."
 
 
  
@@ -87,7 +87,7 @@ with open("poem.md", "w") as p:
     p.write("\n")
     p.write("```")
     p.write(poem)
-    p.write("```")
+    p.write("```") 
 
     
 #print "while the {sec_adj} {sec_n} {sec_adv} {sec_v} through viridian\
