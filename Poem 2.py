@@ -68,15 +68,17 @@ path = path
 
 poem = "The {adj} {n} {adv} {v} the wanderer while the {sec_adj} {sec_n}\
  {sec_adv} {sec_v} through viridian leaves. The wander meets a fork in the road.\
- Path {path} is followed." .format(adj=adjective, n=noun,\
+ Path {path} is followed. But there is no road through the woods Before they\
+ planted the trees.The {third_adj} {third_n} {third_adv} {third_v}.".format(adj=adjective, n=noun,\
  adv=adverb,v=verb, sec_adj=second_adjective, sec_n=second_noun,\
- sec_adv=second_adverb, sec_v=second_verb, path=path)
+ sec_adv=second_adverb, sec_v=second_verb, path=path, third_adj=adjective,\
+ third_n=third_noun, third_adv=third_adverb,third_v=third_verb)
  
-if path == 2:
-    print "A waterfall appears through the trees."
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-else:
-    print "The wander then comes upon a clearing."
+#if path == 2:
+#    print "A waterfall appears through the trees."
+#                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+#else:
+#    print "The wander then comes upon a clearing."
 
 
  
@@ -114,24 +116,24 @@ with open("poem.md", "w") as p:
 #else:
 #    print "The wander then comes upon a clearing."
 
-import markovify
-
-with open ("the woods.txt") as textfile: 
-    woods = textfile.read()
-    
-woods_model = markovify.Text(woods) 
-print woods_model.make_sentence() 
-
-random.seed(2)
-
-third_noun = random.choice(nouns)
-third_verb= random.choice(verbs)
-third_adjective= random.choice(adjectives)
-third_adverb= random.choice(adverbs)
-
-print "The {third_adj} {third_n} {third_adv} {third_v}.".format\
-(third_adj=adjective, third_n=third_noun, third_adv=third_adverb,\
- third_v=third_verb)
+#import markovify
+#
+#with open ("the woods.txt") as textfile: 
+#    woods = textfile.read()
+#    
+#woods_model = markovify.Text(woods) 
+#print woods_model.make_sentence() 
+#
+#random.seed(2)
+#
+#third_noun = random.choice(nouns)
+#third_verb= random.choice(verbs)
+#third_adjective= random.choice(adjectives)
+#third_adverb= random.choice(adverbs)
+#
+#print "The {third_adj} {third_n} {third_adv} {third_v}.".format\
+#(third_adj=adjective, third_n=third_noun, third_adv=third_adverb,\
+# third_v=third_verb)
 
 #add markovify to my poem
 
