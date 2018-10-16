@@ -61,38 +61,23 @@ second_adverb = random.choice(adverbs)
 
 
 # string format
-print "The {adj} {n} {adv} {v} the wanderer while the {sec_adj} {sec_n}\
+first_poem = "The {adj} {n} {adv} {v} the wanderer while the {sec_adj} {sec_n}\
  {sec_adv} {sec_v} through viridian leaves." .format(adj=adjective, n=noun,\
  adv=adverb,v=verb, sec_adj=second_adjective, sec_n=second_noun,\
  sec_adv=second_adverb, sec_v=second_verb)
  
-#with open("poem.md")
-#print poem
-    
-#print "while the {sec_adj} {sec_n} {sec_adv} {sec_v} through viridian\
-# leaves.".format(sec_adj=second_adjective, sec_n=second_noun, sec_adv=second_adverb, 
-#           sec_v=second_verb)
-
-
-
-#i=0
-#for noun in nouns:
-#    print nouns [i]
-#    i=i
-#   
-#add random if else to my poem 
 random.seed()
 path = random.randint(1,3)
 path = path
 
-print "The wanderer meets a fork in the road. Path {path} is \
+second_poem = "The wanderer meets a fork in the road. Path {path} is \
 followed." .format(path=path)
  
 if path == 2:
-    print "A waterfall appears through the trees."
+    third_poem = "A waterfall appears through the trees."
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 else:
-    print "The wanderer then comes upon a clearing."
+    third_poem = "The wanderer then comes upon a clearing."
 
 import markovify
 
@@ -100,7 +85,7 @@ with open ("the woods.txt") as textfile:
     woods = textfile.read()
     
 woods_model = markovify.Text(woods) 
-print woods_model.make_sentence() 
+fourth_poem = woods_model.make_sentence() 
 
 random.seed(2)
 
@@ -109,43 +94,51 @@ third_verb= random.choice(verbs)
 third_adjective= random.choice(adjectives)
 third_adverb= random.choice(adverbs)
 
-print "The {third_adj} {third_n} {third_adv} {third_v}.".format\
+fifth_poem = "The {third_adj} {third_n} {third_adv} {third_v}.".format\
 (third_adj=adjective, third_n=third_noun, third_adv=third_adverb,\
  third_v=third_verb)
 
-#add markovify to my poem
-#import markovify
-#
-#
-#with open ("alice.txt") as textfile: 
-#    carroll = textfile.read()
-#    
-#with open ("poe.txt") as textfile: 
-#    poe = textfile.read()
-#    
-##print carroll
-#
-#carroll_model = markovify.Text(carroll)  
-#poe_model = markovify.Text(poe) 
-#
-#synthesized_model = markovify.combine([carroll_model, poe_model], [1,1])
-#
-#print synthesized_model.make_sentence()
+# export markdown
+
+with open("poem.md", "w") as p:
+
+    # write first part of poem
+    p.write("## Wandering")
+    p.write("\n")
+    p.write("```")
+    p.write(first_poem)
+    p.write("```") 
+    p.write("\n")
+
+    # write second part of poem
+    p.write("\n")
+    p.write("```")
+    p.write(second_poem)
+    p.write("```") 
+    p.write("\n")
+
+    # write third part of poem
+    p.write("\n")
+    p.write("```")
+    p.write(third_poem)
+    p.write("```") 
+    p.write("\n")
+
+    # write fourth part of poem
+    p.write("\n")
+    p.write("```")
+    p.write(fourth_poem)
+    p.write("```") 
+    p.write("\n")
+    
+    # write fifth part of poem
+    p.write("\n")
+    p.write("```")
+    p.write(fifth_poem)
+    p.write("```") 
+    p.write("\n")
 
 
-#with open ("poe.txt") as textfile: 
-#    poe = textfile.read()
-#
-#with open ("the raven.txt") as textfile: 
-#    raven = textfile.read()
-#    
-##print raven
-#
-#raven_model = markovify.Text(raven)  
-#poe_model = markovify.Text(poe) 
-#
-#synthesized_model = markovify.combine([raven_model, poe_model], [1,1])
-#
-#print synthesized_model.make_sentence()
+
 
 
