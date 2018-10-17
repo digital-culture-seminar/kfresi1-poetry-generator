@@ -105,6 +105,8 @@ with open("poem.md", "w") as p:
     # write first part of poem
     p.write("## Wandering")
     p.write("\n")
+    p.write("---")
+    p.write("\n")
     p.write("```")
     p.write(first_poem)
     p.write("```") 
@@ -139,6 +141,21 @@ with open("poem.md", "w") as p:
     p.write("\n")
 
 
+# text to speech
 
+#tts = gTTS(first_poem + second_poem + third_poem + fourth_poem + fifth_poem\
+#           , lang='en')
+#
+#
+#
+## write audio file
+#
+#tts.save("wandering.mp3")
+#
+#
+#
+## play audio file
+#
+#playsound("wandering.mp3")
 
 
