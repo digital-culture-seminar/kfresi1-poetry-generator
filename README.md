@@ -38,6 +38,9 @@ The wanderer then comes upon a clearing.
 But there is no road through the woods Seventy years ago.
 The effervescent forest slowly enchants.
 
+# Poem Link 
+[Wandering](poem.md)
+
 # Other Poem Results 
 
 >The dark wilderness softly filters the wander
