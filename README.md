@@ -33,10 +33,16 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
 ## Wandering
 ---
 The effervescent forest slowly enchants the wanderer while the warm sunlight softly filters through viridian leaves.
-The wanderer meets a fork in the road. Path 3 is followed.
-The wanderer then comes upon a clearing.
+The wanderer meets a fork in the road. Path 2 is followed.
+A waterfall appears through the trees.
 But there is no road through the woods Seventy years ago.
 The effervescent forest slowly enchants.
+
+### Poem Link 
+[Wandering](poem.md)
+
+### Poem Audio
+[Wandering MP3](poem.MP3)
 
 # Other Poem Results 
 
