@@ -54,48 +54,49 @@ from playsound import playsound
 
 from gtts import gTTS
 
-import markovify
+#import markovify
+#
+## get raw text as string
+#with open ("poe.txt") as textfile: 
+#    poe = textfile.read()
+#
+#with open ("the raven.txt") as textfile: 
+#    raven = textfile.read()
+#    
+##print raven
+#
+#raven_model = markovify.Text(raven)  
+#poe_model = markovify.Text(poe) 
+#
+#synthesized_model = markovify.combine([raven_model, poe_model], [1,1])
+#
+#markov_poem = synthesized_model.make_sentence()
 
-# get raw text as string
-with open ("poe.txt") as textfile: 
-    poe = textfile.read()
-
-with open ("the raven.txt") as textfile: 
-    raven = textfile.read()
-    
-#print raven
-
-raven_model = markovify.Text(raven)  
-poe_model = markovify.Text(poe) 
-
-synthesized_model = markovify.combine([raven_model, poe_model], [1,1])
-
-markov_poem = synthesized_model.make_sentence()
-
-
+with open ("poem text.txt") as textfile:
+    poem = textfile.read()
 
 
 # text to speech
 
-tts = gTTS(text=markov_poem, lang='en')
+tts = gTTS(text=poem, lang='en')
 
 
 
 # write audio file
 
-tts.save("markovified-poem.mp3")
+tts.save("poem.mp3")
 
 
 
 # play audio file
 
-playsound("markovified-poem.mp3")
+playsound("poem.mp3")
 
 
 
-!/usr/bin/env python
-
- -*- coding: utf-8 -*-
+#!/usr/bin/env python
+#
+# -*- coding: utf-8 -*-
 
 
 
