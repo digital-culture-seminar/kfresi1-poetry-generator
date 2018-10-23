@@ -15,6 +15,13 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
  The intent is that these will words will combine to create a feeling
  and environment of the natural world. 
 
+# Steps to Poem Construction 
+1. String format with list of nouns, verbs, adverbs and adjectives
+2. Random chance with three paths and two possible outcomes
+3. Markovify
+4. Final string format for a conclusion
+
+
 # Poem 
 
  _Version One_
