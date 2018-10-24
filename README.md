@@ -1,7 +1,7 @@
 # Poetry Repository
+---
 
-
-# Artist Statement 
+## Artist Statement 
 
 I have a strong interest in the natural world and the colors and forms found therein. 
 This is often the inspiration for my art and design work. This will be the 
@@ -14,8 +14,17 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
  that describe the temperature, lighting, foliage, and color.  
  The intent is that these will words will combine to create a feeling
  and environment of the natural world. 
+ 
 
-# Poem 
+
+## Steps to Poem Construction 
+1. String format with list of nouns, verbs, adverbs and adjectives
+2. Random chance with three paths and two possible outcomes
+3. Markovify
+4. Final string format for a conclusion
+
+
+## Poem 
 
  _Version One_
 >The effervescent forest slowly enchants the wander
@@ -30,21 +39,20 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
 >A waterfall appears through the trees.
 >The effervescent path slowly shimmers.
 
-## Wandering
+### Wandering
 ---
-The effervescent forest slowly enchants the wanderer while the warm sunlight softly filters through viridian leaves.
+The effervescent forest slowly enchants the wanderer 
+while the warm sunlight softly filters through viridian leaves.
 The wanderer meets a fork in the road. Path 2 is followed.
 A waterfall appears through the trees.
 But there is no road through the woods Seventy years ago.
 The effervescent forest slowly enchants.
 
-### Poem Link 
+#### Poem Link 
 [Wandering](poem.md)
 
-### Poem Audio
-[Wandering MP3](poem.MP3)
 
-# Other Poem Results 
+## Other Poem Results 
 
 >The dark wilderness softly filters the wander
 >while the warm flora softly shimmers through viridian leaves.
@@ -61,7 +69,7 @@ The effervescent forest slowly enchants.
 >The wander meets a fork in the road. Path 1 is followed.
 >The wander then comes upon a clearing.
 
-# Markov Chain Examples 
+## Markov Chain Examples 
 
 >This I sat divining, with my head at ease reclining On the pallid bust of Pallas just above my chamber door.
 >Leave my loneliness unbroken!--quit the bust above my chamber door-- Perched and sat and nothing more.
@@ -74,7 +82,7 @@ The effervescent forest slowly enchants.
 
 >I was a child, In this kingdom by the sea, In her sepulchre there by the sea.
 
-# Poem With Markov Chain
+## Poem With Markov Chain
 
 >The effervescent forest slowly enchants the wander
 >while the warm sunlight softly filters through viridian leaves.
