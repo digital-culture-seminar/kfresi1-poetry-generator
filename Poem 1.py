@@ -100,62 +100,62 @@ fifth_poem = "The {third_adj} {third_n} {third_adv} {third_v}.".format\
 
 # export markdown
 
-with open("poem.md", "w") as p:
-
-    # write first part of poem
-    p.write("## Wandering")
-    p.write("\n")
-    p.write("---")
-    p.write("\n")
-    p.write("```")
-    p.write(first_poem)
-    p.write("```") 
-    p.write("\n")
-
-    # write second part of poem
-    p.write("\n")
-    p.write("```")
-    p.write(second_poem)
-    p.write("```") 
-    p.write("\n")
-
-    # write third part of poem
-    p.write("\n")
-    p.write("```")
-    p.write(third_poem)
-    p.write("```") 
-    p.write("\n")
-
-    # write fourth part of poem
-    p.write("\n")
-    p.write("```")
-    p.write(fourth_poem)
-    p.write("```") 
-    p.write("\n")
-    
-    # write fifth part of poem
-    p.write("\n")
-    p.write("```")
-    p.write(fifth_poem)
-    p.write("```") 
-    p.write("\n")
+#with open("poem.md", "w") as p:
+#
+#    # write first part of poem
+#    p.write("## Wandering")
+#    p.write("\n")
+#    p.write("---")
+#    p.write("\n")
+#    p.write("```")
+#    p.write(first_poem)
+#    p.write("```") 
+#    p.write("\n")
+#
+#    # write second part of poem
+#    p.write("\n")
+#    p.write("```")
+#    p.write(second_poem)
+#    p.write("```") 
+#    p.write("\n")
+#
+#    # write third part of poem
+#    p.write("\n")
+#    p.write("```")
+#    p.write(third_poem)
+#    p.write("```") 
+#    p.write("\n")
+#
+#    # write fourth part of poem
+#    p.write("\n")
+#    p.write("```")
+#    p.write(fourth_poem)
+#    p.write("```") 
+#    p.write("\n")
+#    
+#    # write fifth part of poem
+#    p.write("\n")
+#    p.write("```")
+#    p.write(fifth_poem)
+#    p.write("```") 
+#    p.write("\n")
 
 
 # text to speech
 
-#tts = gTTS(first_poem + second_poem + third_poem + fourth_poem + fifth_poem\
-#           , lang='en')
-#
-#
-#
-## write audio file
-#
-#tts.save("wandering.mp3")
-#
-#
-#
-## play audio file
-#
-#playsound("wandering.mp3")
+tts = gTTS(first_poem + second_poem + third_poem + fourth_poem + fifth_poem\
+           , lang='en')
+
+
+
+# write audio file
+
+tts.save("wandering.mp3")
+
+
+
+# play audio file
+
+playsound("wandering.mp3")
 
 
