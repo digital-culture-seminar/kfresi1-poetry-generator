@@ -14,9 +14,18 @@ In order to achieve this I plan to accumulate a group of nouns, verbs, adjective
  that describe the temperature, lighting, foliage, and color.  
  The intent is that these will words will combine to create a feeling
  and environment of the natural world. 
+ 
+
 
 ## Steps to Poem Construction 
 1. String format with list of nouns, verbs, adverbs and adjectives
+
+Nouns | Verbs
+----- | ------
+wilderness | meanders
+vines | coils
+leaves | fall
+
 2. Random chance with three paths and two possible outcomes
 3. Markovify
 4. Final string format for a conclusion
