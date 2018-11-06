@@ -21,6 +21,16 @@ The poem is constructed using several methods.
 
 The first step was to gather words that come to mind when contemplating a forest. I have accumulated a list of nouns, verbs, adverbs, and adjectives. These focus on words that describe the temperature, lighting, foliage, and color of the forest. These words were then put into sentence form using string format to formulate the first portion of the poem. The intent is that these words will combine to create a feeling and environment of the natural world.
 
+Adjectives | Nouns | Verbs | Adverbs
+---------- | ----- | ----- | -------
+Effervescent | Wilderness | Meanders | Slowly
+Shrouded | Vines | Coils | Softly
+Deep | Leaves | Fall | Lightly
+Dark | Flora | Shimmers | Quietly
+Warm | Path | Filters |
+Majestic | Sunlight | Enchants|
+Primordial | Forest | 
+
 ### Step Two
 The second step of the process includes chance statements. There are three options for the wanderer to travel and two resulting destinations. This will add to the journey of the poem. If path two is chosen, the wanderer will come to a waterfall. If path one or three are chosen then the wanderer will come to a clearing. 
 
