@@ -53,7 +53,7 @@ The third part of the poem is constructed using Markovify. Several literary work
 For the final step, and the final line in the poem, I chose to create one more sentence from the original set of nouns, verbs, adjectives, and adverbs. This sentence is intended to match the first one. The journey through the woods have come to an end and the wanderer has come full circle. 
 
 ### Example of Code
-Example one
+
     # write first part of poem
     
     p.write("## Wandering")
