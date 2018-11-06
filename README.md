@@ -3,17 +3,10 @@
 
 ## Artist Statement 
 
-I have a strong interest in the natural world and the colors and forms found therein. 
-This is often the inspiration for my art and design work. This will be the 
-inspiration for the poem in this class. As I began brainstorming for material 
-to write a poem I began to pull ideas from the forest. I want my poem to describe 
-the feeling of a forest in late spring.
+Art is a major part of my life. It provides an escape and a way of understanding myself and the world around me. I find a new piece of myself with every work I create. Every time the pen touches the paper, the brush touches the canvas, or the needle touches the fabric a journey is begun, the wandering starts. So much of life is about control, restraint and reason. Art is about freedom, exploration and wandering. 
 
-In order to achieve this I plan to accumulate a group of nouns, verbs, adjectives
- and adverbs of create a poem describing the feeling the. I will focus on words
- that describe the temperature, lighting, foliage, and color.  
- The intent is that these will words will combine to create a feeling
- and environment of the natural world. 
+As an artist I have always been drawn to nature for inspiration in my work. I have a strong interest in the natural world and the colors and forms found therein. The woods and the beach are where I find peace and this is a powerful driving force in my art and design work. This will once again be the inspiration for my creative journey through this class. As I began brainstorming for material to write a poem I looked once again to the forest. The intent of my poem is to describe the feeling of a lush forest in late spring. The words are chosen to describe the colors, temperature, lighting, and feeling of a forest and are combined to describe a wandering journey through the forest. 
+
  
 
 
