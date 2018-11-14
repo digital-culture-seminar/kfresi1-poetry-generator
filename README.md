@@ -99,7 +99,7 @@ The effervescent forest slowly enchants.
 [Wandering](poem.md)
 
 ### Poem Waveform
-![Poem Waveform](songform image 2.PNG)
+![Poem Waveform](https://github.com/digital-culture-seminar/kfresi1-poetry-generator/blob/master/songform%20image%202.PNG)
 
 ## Other Poem Results 
 
