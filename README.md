@@ -34,18 +34,17 @@ Primordial | Forest |
 ### Step Two
 The second step of the process includes chance statements. There are three options for the wanderer to travel and two resulting destinations. This will add to the journey of the poem. If path two is chosen, the wanderer will come to a waterfall. If path one or three are chosen then the wanderer will come to a clearing. 
 
-random.seed()
-path = random.randint(1,3)
-path = path
-
-second_poem = "The wanderer meets a fork in the road. Path {path} is followed." .format(path=path)
- 
-if path == 2:
-    third_poem = "A waterfall appears through the trees."
-
-else:
-    third_poem = "The wanderer then comes upon a clearing."
-
+    random.seed()
+    path = random.randint(1,3)
+    path = path
+    
+    second_poem = "The wanderer meets a fork in the road. Path {path} is followed." .format(path=path)
+    
+    if path == 2:
+        third_poem = "A waterfall appears through the trees."
+    else: 
+        third_poem = "The wanderer then comes upon a clearing."
+   
 ### Step Three
 The third part of the poem is constructed using Markovify. Several literary works were used and gave varying results. The poem that gave the best results for my poem concept was The Way Through the Woods by Rudyard Kipling. 
 
