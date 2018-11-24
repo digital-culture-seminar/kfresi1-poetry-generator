@@ -101,6 +101,9 @@ The effervescent forest slowly enchants.
 ### Poem Waveform
 ![Poem Waveform](https://github.com/digital-culture-seminar/kfresi1-poetry-generator/blob/master/songform%20image%202.PNG)
 
+### Poem Grasshopper
+![Poem Grasshopper](https://github.com/digital-culture-seminar/kfresi1-poetry-generator/blob/master/songform%20grasshopper%20image.PNG)
+
 ## Other Poem Results 
 
 >The dark wilderness softly filters the wander
